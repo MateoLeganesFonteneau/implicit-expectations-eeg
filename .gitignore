@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# EEG data and generated analysis products
+data/
+outputs/
+*.fif
+*.h5
+*.pkl
+*.npz
+
+# Local provenance copies not required by the scientific pipeline
+archive/
+
