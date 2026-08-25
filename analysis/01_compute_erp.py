@@ -8,7 +8,7 @@
 #   grand_erp_summary.pkl  – grand-average waveforms
 #   grand_erp_stats.pkl    – point-wise t-test results
 #
-# Exclusion list matches the FRN TF analysis (44 subjects).
+# Participant selection matches the final ERP and time-frequency analyses.
 
 from pathlib import Path
 import pickle

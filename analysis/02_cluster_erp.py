@@ -17,7 +17,7 @@
 #   - "interaction": (contrast)_second - (contrast)_first   (difference of differences)
 #
 # Subjects are aligned by ID; only subjects present in every cell of a given
-# test are included. Exclusion list matches the 44-subject ERP/TF analyses.
+# test are included. Participant selection matches the final ERP/TF analyses.
 #
 # Saves: erp_clusters.pkl
 #   {

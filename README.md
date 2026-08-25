@@ -58,8 +58,8 @@ participant-level classifications to `awareness/outputs/`. See
 ## Participant selection
 
 The final exclusion list is defined once in `analysis/config.py` and is shared
-by every analysis. It includes participant 1028, yielding the final N = 43 EEG
-sample used in the manuscript.
+by every EEG analysis, ensuring that all excluded study IDs are handled
+consistently.
 
 ## Expected inputs
 
