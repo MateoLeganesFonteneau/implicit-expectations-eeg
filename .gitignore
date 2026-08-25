@@ -6,6 +6,7 @@ __pycache__/
 # EEG data and generated analysis products
 data/
 outputs/
+awareness/outputs/
 *.fif
 *.h5
 *.pkl
@@ -13,4 +14,3 @@ outputs/
 
 # Local provenance copies not required by the scientific pipeline
 archive/
-

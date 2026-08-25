@@ -5,7 +5,16 @@ reward Pavlovian-conditioning manuscript. The repository covers the ERP,
 time-frequency, cluster-permutation, and FRN outcome analyses reported in the
 paper.
 
-The repository contains code only. Cleaned EEG epochs are not included.
+The repository also contains the MATLAB awareness-categorization analysis and
+its trial-level input data. Cleaned EEG epochs are not included.
+
+## Awareness categorization
+
+`awareness/categorize_awareness.m` applies the Bayesian Awareness
+Categorization Technique to all available trials for each participant. It reads
+the included `awareness/raw_data/contingency_data_EEG.mat` file and writes the
+participant-level classifications to `awareness/outputs/`. See
+`awareness/README.md` for the model settings and category coding.
 
 ## Analysis digest
 
@@ -116,4 +125,3 @@ release, machine-specific paths were replaced with environment variables, the
 final participant exclusion list was centralized, a fixed seed was added to
 the time-frequency permutation calls, and partial eta-squared was added to the
 saved ANOVA tables.
-
